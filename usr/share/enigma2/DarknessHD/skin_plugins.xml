@@ -34,6 +34,21 @@
     <panel name="pig" />
   </screen>
   <!-- MultiBoot -->
+  <screen name="MultiBootStartupADV" position="0,0" size="1280,720" title="MultiBoot STARTUP Selector" flags="wfNoBorder" backgroundColor="transparent">
+    <panel name="ch" />
+    <panel name="rgyb_source" />
+    <panel name="pig" />
+    <widget source="Title" render="Label" position="50,600" size="733,66" zPosition="-1" halign="center" font="Regular; 33" backgroundColor="tb" transparent="1" valign="center" />
+    <eLabel position="133,240" size="526,40" font="Regular; 26" halign="center" backgroundColor="black" transparent="1" zPosition="3" text="Currently used software" foregroundColor="white" />
+    <eLabel position="133,303" size="526,40" font="Regular; 26" halign="center" backgroundColor="black" transparent="1" zPosition="3" text="Selecting Image Using the 'Left_Right' keys " foregroundColor="white" />
+    <eLabel position="133,270" size="526,40" font="Regular; 26" halign="center" backgroundColor="black" transparent="1" zPosition="3" text="Activation of the PIP function with the 'Top_ Bottom' keys" foregroundColor="white" />
+    <eLabel name="b" position="16,764" size="13,53" backgroundColor="white" zPosition="-4" />
+    <eLabel name="a" position="92,756" size="15,61" backgroundColor="black" zPosition="-3" />
+    <widget source="config" render="Label" position="50,121" size="733,400" halign="center" font="Regular; 22" backgroundColor="black" foregroundColor="white" />
+    <widget source="options" render="Label" position="70,33" size="596,46" halign="center" font="Regular; 16" backgroundColor="black" foregroundColor="white" />
+    <widget name="description" position="70,81" size="596,46" font="Regular; 12" foregroundColor="white" halign="center" backgroundColor="black" valign="center" />
+    <ePixmap position="963,358" size="213,126" zPosition="2" pixmap="DarknessHD/picon_default.png" alphatest="blend" />
+  </screen>
   <screen name="MultiBootStartupOPT" position="0,0" size="1280,720" title="MultiBoot STARTUP Selector" flags="wfNoBorder" backgroundColor="transparent">
     <panel name="ch" />
     <panel name="rgyb_source" />
@@ -50,6 +65,21 @@
     <ePixmap position="963,358" size="213,126" zPosition="2" pixmap="DarknessHD/picon_default.png" alphatest="blend" />
   </screen>
   <screen name="MultiBootStartup" position="0,0" size="1280,720" title="MultiBoot STARTUP Selector" flags="wfNoBorder" backgroundColor="transparent">
+    <panel name="ch" />
+    <panel name="rgyb_source" />
+    <panel name="pig" />
+    <widget source="Title" render="Label" position="50,600" size="733,66" zPosition="-1" halign="center" font="Regular; 33" backgroundColor="tb" transparent="1" valign="center" />
+    <eLabel position="133,240" size="526,40" font="Regular; 26" halign="center" backgroundColor="black" transparent="1" zPosition="3" text="Currently used software" foregroundColor="white" />
+    <eLabel position="133,303" size="526,40" font="Regular; 26" halign="center" backgroundColor="black" transparent="1" zPosition="3" text="Selecting Image Using the 'Left_Right' keys " foregroundColor="white" />
+    <eLabel position="133,270" size="526,40" font="Regular; 26" halign="center" backgroundColor="black" transparent="1" zPosition="3" text="Activation of the PIP function with the 'Top_ Bottom' keys" foregroundColor="white" />
+    <eLabel name="b" position="16,764" size="13,53" backgroundColor="white" zPosition="-4" />
+    <eLabel name="a" position="92,756" size="15,61" backgroundColor="black" zPosition="-3" />
+    <widget source="config" render="Label" position="50,121" size="733,400" halign="center" font="Regular; 22" backgroundColor="black" foregroundColor="white" />
+    <widget source="options" render="Label" position="70,33" size="596,46" halign="center" font="Regular; 16" backgroundColor="black" foregroundColor="white" />
+    <widget name="description" position="70,81" size="596,46" font="Regular; 12" foregroundColor="white" halign="center" backgroundColor="black" valign="center" />
+    <ePixmap position="963,358" size="213,126" zPosition="2" pixmap="DarknessHD/picon_default.png" alphatest="blend" />
+  </screen>
+<screen name="MultiBootStartupADV" position="0,0" size="1280,720" title="MultiBoot STARTUP Selector" flags="wfNoBorder" backgroundColor="transparent">
     <panel name="ch" />
     <panel name="rgyb_source" />
     <panel name="pig" />
